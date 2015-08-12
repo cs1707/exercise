@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BEM DEMO 1</title>
+  <style>
+  .button {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 7px 12px;
+    border: 1px solid #D5D5D5;
+    background-image: linear-gradient(#EEE, #DDD);
+    font: 700 13px/18px Helvetica, arial;
+  }
+
+  .button--state-success {
+    color: #fff;
+    background: #569e3d linear-gradient(#79d858, #569e3d) repeat-x;
+    border-color: #4a993e;
+  }
+
+  .button--state-danger {
+    color: #900;
+  }
+
+  </style>
+</head>
+<body>
+<h1>BEM DEMO</h1>
+<p>BEM 是一种css class 命名规范。BEM代表块（Block），元素（Element），修饰符（Modifier）。详情参考 <a href="http://getbem.com/">getbem.com</a></p>
+  <button class="button">
+  Normal button
+  </button>
+  <button class="button button--state-success">
+  Success button
+  </button>
+  <button class="button button--state-danger">
+  Danger button
+  </button>
+
+
+</body>
+</html>
