@@ -1,0 +1,43 @@
+header {
+  /*height: 64px;*/
+  color: #fff;
+  background-color: #00bcd4;
+  overflow: hidden;
+}
+header .github-link {
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 16px;
+}
+header h1 {
+  margin-top: 16px;
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.collection {
+  width: 700px;
+  max-width: 95%;
+  margin: 60px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.collection > li {
+  border-bottom: 1px solid #e0e0e0;
+}
+.collection > li:last-child {
+  border-bottom: none;
+}
+.collection > li a {
+  display: block;
+  padding: 24px;
+  text-decoration: none;
+  color: #333;
+  transition: .3s ease;
+}
+.collection > li a:hover {
+  background-color: rgba(0,0,0,.098);
+}
