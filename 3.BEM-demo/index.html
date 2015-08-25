@@ -2,56 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>BEM DEMO 1</title>
-  <link rel="stylesheet" href="reset.css">
-  <style>
-  body {
-    background-color: #222;
-  }
-  .accordion {
-    max-width: 600px;
-    margin: 4rem auto;
-    width: 90%;
-    font-family: "Raleway", sans-serif;
-    background-color: #f4f4f4;
-  }
-  .accordion__title {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 1rem 1.5rem;
-    background-color: #585f97;
-    color: #fff;
-    cursor: pointer;
-    transition: .3s ease;
-  }
-  .accordion__title:hover {
-    background-color: #484b77;
-  }
-  .accordion__copy {
-    display: none;
-    padding: 1rem 1.5rem 2rem 1.5rem;
-    color: gray;
-    line-height: 1.6;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .accordion__copy--open {
-    display: block;
-  }
-  </style>
-  <script src="jquery-2.1.4.min.js"></script>
-  <script>
-  $(function(){
-    var $title = $('.js-title');
-    var copy = '.js-copy';
-    $title.click(function(){
-      $(this).next().slideToggle();
-      $(this).parent().siblings().children(copy).slideUp();
-    })
-
-  });
-  </script>
+  <title>BEM DEMO</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="accordion">
@@ -112,5 +65,10 @@
     </p>
   </div>
 </div>
+<p>
+  来源 <a href="https://css-tricks.com/bem-101/">https://css-tricks.com/bem-101/</a>
+</p>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/accordion.js"></script>
 </body>
 </html>

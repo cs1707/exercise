@@ -2,112 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>BEM DEMO 1</title>
-  <link rel="stylesheet" href="reset.css">
+  <title>BEM DEMO</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
-  <style>
-    body {
-      font-family: "Raleway", sans-serif;
-    }
-    *, *:after, *:before {
-      box-sizing: border-box;
-    }
-    .clearfix:after {
-      content: '';
-      display: table;
-      clear: both;
-    }
-    .menu {
-      background-color: #0b2017;
-    }
-    .menu__trigger {
-      background-color: #16414f;
-      float: left;
-      padding: 1.3rem 0;
-      width: 10%;
-      text-align: center;
-      color: white;
-      font-size: 1.535rem;
-      transition: .3s;
-    }
-    @media (max-width: 40em) {
-      .menu__trigger {
-        width: 15%;
-      }
-    }
-    .menu__trigger--active {
-      background-color: salmon;
-    }
-    .menu__row {
-      font-size: 0; /* display inline-block 空隙*/
-    }
-    .menu__list {
-      display: inline-block;
-      vertical-align: bottom;
-      font-size: 1.2rem;
-    }
-    .menu__link {
-      display: block;
-      text-decoration: none;
-      padding: 1.5rem;
-      color: #fff;
-      font-weight: 500;
-      transition: .3s;
-    }
-    @media (max-width: 30em) {
-      .menu__link {
-        padding: 1.5rem .6rem;
-      }
-    }
-    .menu__link:hover {
-      background-color: #16414f;
-    }
-    .menu__dropdown {
-      padding: 1.6rem 0;
-      background: salmon;
-      display: none;
-    }
-    .menu__col {
-      width: 33.333%;
-      float: left;
-    }
-    @media (max-width: 50em) {
-      .menu__col {
-        width: 100%;
-      }
-    }
-    .section {
-      padding: 2.5rem 1.5rem;
-    }
-    .section__title {
-      color: #fff;
-      font-size: 1.7rem;
-      font-weight: 500;
-      line-height: 1.4;
-      margin-bottom: 2vh;
-    }
-    .section__content {
-      line-height: 1.5;
-      color: #fafafa;
-      font-weight: 500;
-    }
-  </style>
-  <script src="jquery-2.1.4.min.js"></script>
-  <script>
-  $(function(){
-    $('.js-trigger').on('click', function(){
-      $(this).toggleClass('menu__trigger--active');
-      $('.js-menu').slideToggle('fast');
-    });
-  });
-  </script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="menu clearfix">
     <a href="#" class="menu__trigger js-trigger">
       <i class="ion-navicon-round"></i>
     </a>
-
     <ul class="menu__row">
       <li class="menu__list">
         <a href="#" class="menu__link">About</a>
@@ -135,5 +39,10 @@
       </div>
     </div>
   </div>
+  <p>
+  来源 <a href="https://css-tricks.com/bem-101/">https://css-tricks.com/bem-101/</a>
+  </p>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/menu-dropdown.js"></script>
 </body>
 </html>
