@@ -1,0 +1,63 @@
+body {
+    font-family: "fira-sans-2", sans-serif;
+    background-color: #ccc;
+  }
+/* Block */
+.btn {
+  text-decoration: none;
+  background-color: #fff;
+  color: #888;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 5px;
+}
+
+/* Element */
+.btn__text {
+  padding: 0 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Element */
+.btn__price {
+  color: #fff;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: -10px;
+  font-weight: 600;
+  background-color: #333;
+  opacity: .4;
+  border-radius: 5px 0 0 5px;
+}
+
+/* Modifier */
+.btn--big {
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+/* Modifier */
+.btn--orange {
+  border-color: #ff4136;
+  color: #fff;
+  background-color: #ff4136;
+}
+
+/* Modifier */
+.btn--blue {
+  border-color: #0074d9;
+  color: #fff;
+  background-color: #0074d9;
+}
+
+/* Modifier */
+.btn--green {
+  border-color: #3d9970;
+  color: #fff;
+  background-color: #3d9970;
+}
