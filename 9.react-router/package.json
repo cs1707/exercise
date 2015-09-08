@@ -1,0 +1,21 @@
+{
+  "name": "9.react-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "babel": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "bundle-loader": "latest",
+    "react": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest",
+    "react-router": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
