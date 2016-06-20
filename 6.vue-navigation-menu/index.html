@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>vue navigation menu</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="root">
+    <nav class="nav" :class="active" @click.prevent>
+      <a href="#" class="nav-link home" @click="makeActive('home')">Home</a>
+      <a href="#" class="nav-link projects" @click="makeActive('projects')">Projects</a>
+      <a href="#" class="nav-link services" @click="makeActive('services')">Services</a>
+      <a href="#" class="nav-link contact" @click="makeActive('contact')">Contact</a>
+    </nav>
+  </div>
+  <script src="./vue.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
