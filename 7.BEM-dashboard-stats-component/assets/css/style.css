@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  background: #222;
+  font: 16px 'Open Sans', sans-serif;
+}
+
+/*.box*/
+.box {
+  width: 300px;
+  margin: 15px auto 0;
+  background: linear-gradient(#526494, #604484);
+  border-radius: 5px;
+}
+
+.box__header {
+  padding: 15px 25px;
+}
+
+.box__header-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.box__body {
+  padding: 0 25px;
+}
+
+.stats {
+  color: #fff;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.stats__amount {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.stats__caption {
+  font-size: 18px;
+}
+
+.stats__change {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: #B1B7C8;
+  text-align: right;
+}
+
+.stats__value {
+  font-size: 18px;
+}
+
+.stats__period {
+  font-size: 14px;
+}
+
+.stats--main .stats__amount {
+  font-size: 54px;
+}
+
+.stats__value--positive {
+  color: #AEDC6F;
+}
+
+.stats__value--negative {
+  color: #FB5055;
+}
